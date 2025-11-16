@@ -56,7 +56,7 @@ section{
     display: flex;
    flex-direction: column;
    height: 100%;
-   background-color: rgb(70, 70, 182);
+   background-color: rgb(31, 31, 32);
 }
 
 section .infos{
@@ -77,8 +77,8 @@ section .infos{
     border: 1px solid var(--border-primary-color);
     flex-grow: 1;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 30px);
-    grid-template-rows: repeat(auto-fill, 30px);
+    grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(30px, 1fr));
 
 
 }
